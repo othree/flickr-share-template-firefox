@@ -1,0 +1,15 @@
+{
+  "title": "Flickr Share Template",
+  "name": "flickr-share-template-firefox",
+  "version": "0.0.1",
+  "description": "Template based Flickr share photo function",
+  "main": "index.js",
+  "author": "othree",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
