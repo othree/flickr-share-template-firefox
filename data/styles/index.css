@@ -1,0 +1,19 @@
+
+* {
+  box-sizing: border-box;
+}
+
+#result-textarea {
+  border: 1px solid;
+  width: 100%;
+  height: 180px;
+  resize: none;
+}
+
+#tmpl-textarea {
+  border: 1px solid;
+  width: 100%;
+  height: 180px;
+  resize: none;
+}
+
