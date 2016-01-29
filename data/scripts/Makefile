@@ -1,2 +1,6 @@
-content.js: mustache.js index.js
-	cat mustache.js index.js > content.js
+content.js: vendor.js qx.js flickr.js index.js
+	cat $^ > $@
+	rm vendor.js
+
+vendor.js: vendor/mustache.js vendor/q.js
+	cat $^ > $@
